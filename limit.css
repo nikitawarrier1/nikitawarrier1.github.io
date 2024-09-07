@@ -1,0 +1,60 @@
+1.heading {
+    font-size: 6vh;
+}
+
+h2.sub-heading {
+    padding-top: 2vh;
+    font-size: 5vh;
+}
+
+h2.sub-sub-heading {
+    padding-left: 2vw;
+    font-size: 4vh;
+}
+
+h3.text-content {
+    padding-left: 3.5vw;
+    font-size: 3vh;
+}
+
+h4.tangent {
+    font-size: 2.5vh;
+    font-style: italic;
+}
+
+/*div.align-pre-req {
+    float: right;
+    text-align: left;
+}*/
+
+h5.pre-req {
+    border-left-style: double;
+    border-left-width: thick; 
+    /*border-color: darkred; */
+    border-radius: 0.8vw;
+    font-style: italic;
+    font-size: 2vh;
+    padding-left: 0.5vw;
+    float: right;
+}
+
+a.notebook {
+    text-decoration: underline;
+}
+
+ol {
+    padding-left: 2vw;
+}
+
+/*h2 {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border-left-style: double; 
+  border-left-width: thick; 
+  font-size:32px; 
+  color: darkred; 
+  border-color: darkred; 
+  text-align: left; 
+  border-radius:10px;
+  font-style: italic;
+}*/
