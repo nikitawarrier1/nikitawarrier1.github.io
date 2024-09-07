@@ -1,12 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HeadSpace</title>
-</head>
-<body>
-    <h1>How're you feeling?</h1>
-    <p>This is a simple website hosted on GitHub Pages.</p>
-</body>
+<!DOCTYPE html> <!--this node tells browser to use standard mode-->
+<html lang="en-US"><!--lang attribute for browser convenience. can change mid para-->
+  <head>
+    <meta charset="utf-8" />
+    <title>Riemann Descartes</title>
+    <meta name="viewport" content="width=device-width" /><!--makes the width of the content the width of the screen-->
+    <link rel="stylesheet" href="./style.css" type="text/css" /><!--style element (if needed) would go to the <head> as well-->
+    <link rel="icon" sizes="64x64" href="./assets/icon.png" type="image/png" /><!--that small image on the left side of ur browser name. DEBUG-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shadows Into Light" />
+    <script src="./main.js"></script><!--defer or async attribute-->
+  </head>
+  <body>
+    <div id="page-container">
+      <header id="header">
+        <div class="menu">
+          <a href="./index.html" class="style">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="./calculus.html" class="style">Calculus!</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="./formulas.html" class="style">Theorems + Formula</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="./about.html" class="style">About</a>
+        </div>
+      </header>
+      <div id="content-wrap">
+        <!-- all other page content -->
+        <section id="intromsg">
+          <h1>THE calc website you </h1>
+          <h1>need to survive</h1>
+          <h1 class="calc">AP CALC AB.</h1>
+          <p>Just free, uninterrupted, ad-free calc review session :)</p> <!--ad-free?? advertisement-less is SOO wordy-->
+        </section>
+        <section id="plan">
+          <h1>The PLAN</h1>
+          <p>Its a simple two step process.</p>
+          <h2>1. Content Review</h2>
+          <h2>2. practice practice practice</h2>
+          <p>more practice</p>
+        </section>
+        <section id="intromsgpartb">
+          <h1> 
+            There are two main parts of calculus
+            <section class="differential">
+              <h2> Differential </h2>
+            </section>
+            <section class="integral">
+            <h2> Integral </h2>
+            </section>
+          </h1>
+        </section>
+      </div>
+      <footer id="footer">
+        <h1 class="end">&lt;/riemanndescartes&gt;</h1>
+      </footer>
+    </div>
+  </body>
 </html>
